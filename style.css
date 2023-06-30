@@ -1,12 +1,13 @@
 body {
   font-family: 'Outfit', sans-serif;
+  background-color: hsl(212, 45%, 89%);
   padding: 0px;
   margin: 0px;
   display: flex;
   height: 100vh;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: hsl(212, 45%, 89%);
 }
 
 .container {
@@ -15,6 +16,7 @@ body {
   width: 350px;
   height: 500px;
   border-radius: 18px;
+  margin-bottom: 50px;
 }
 
 .qr-container {
@@ -54,5 +56,12 @@ p {
   padding-left: 12px;
 }
 
+.attribution p {
+  font-size: 18px;
+  margin-left: 10px;
+  color: hsl(218, 44%, 22%);
+}
 
-  
+a {
+  color: hsl(222, 59%, 33%);
+}
